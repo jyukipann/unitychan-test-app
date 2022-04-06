@@ -13,3 +13,6 @@ Unity
 OCR
 * Tesseract-OCR
     * 日本語関係もインストール
+
+## 双方向通信必須
+unity python UDP 双方向
