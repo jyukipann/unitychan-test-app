@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BasicRigidBodyPush
     - OneWayColliderScript
+    - Readme
     - StarterAssets.StarterAssetsInputs
     - StarterAssets.ThirdPersonController
     - UnityChan.AutoBlink
@@ -85,35 +86,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1602}
-    - Class: 114
-      Script: {instanceID: 2180}
+      Script: {instanceID: 1610}
     - Class: 114
       Script: {instanceID: 2188}
     - Class: 114
-      Script: {instanceID: 2964}
+      Script: {instanceID: 2196}
     - Class: 114
-      Script: {instanceID: 4078}
+      Script: {instanceID: 2974}
     - Class: 114
-      Script: {instanceID: 4560}
+      Script: {instanceID: 4090}
     - Class: 114
-      Script: {instanceID: 5320}
+      Script: {instanceID: 4572}
     - Class: 114
-      Script: {instanceID: 6482}
+      Script: {instanceID: 5334}
     - Class: 114
-      Script: {instanceID: 6654}
+      Script: {instanceID: 5624}
     - Class: 114
-      Script: {instanceID: 6966}
+      Script: {instanceID: 6502}
     - Class: 114
-      Script: {instanceID: 7038}
+      Script: {instanceID: 6676}
     - Class: 114
-      Script: {instanceID: 7134}
+      Script: {instanceID: 6992}
     - Class: 114
-      Script: {instanceID: 7804}
+      Script: {instanceID: 7064}
     - Class: 114
-      Script: {instanceID: 25616}
+      Script: {instanceID: 7160}
     - Class: 114
-      Script: {instanceID: 33408}
+      Script: {instanceID: 7832}
+    - Class: 114
+      Script: {instanceID: 8102}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -143,6 +144,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
   - hash:
       serializedVersion: 2
       Hash: 69415240821be7986b27e72bf9609a30
@@ -317,6 +324,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: e016b70a5996bf72c4d7a902f1caf90d
+    assemblyName: UniWindowController.Samples.dll
+    namespaceName: Kirurobo
+    className: ModelController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -509,6 +522,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniWindowController.Samples.dll
+    namespaceName: Kirurobo
+    className: FileDialogSample
   - hash:
       serializedVersion: 2
       Hash: 6ff1c52123c50b3d73f35cd0e2e65dfd
@@ -733,6 +752,12 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: dc8ba63454427f02507a7c4605c1d75d
+    assemblyName: UniWindowController.Samples.dll
+    namespaceName: Kirurobo
+    className: AutoRotator
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityChan
@@ -913,12 +938,6 @@ ScriptsOnlyBuild:
     className: CameraController
   - hash:
       serializedVersion: 2
-      Hash: bcaee4c2a83047257b5f47d6ed264b75
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Toggle
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -935,6 +954,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OneWayColliderScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1039,6 +1064,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: 4c49cd5e97388ce5ee2a33c0bcb8b543
+    assemblyName: Unity.UniWindowController.dll
+    namespaceName: Kirurobo
+    className: UniWindowMoveHandle
+  - hash:
+      serializedVersion: 2
       Hash: df21ffd1864551a3e43410f28754a73e
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1091,6 +1122,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 2f108941490dfa9071d472ec1d05c334
+    assemblyName: UniWindowController.Samples.dll
+    namespaceName: Kirurobo
+    className: FullscreenSample
   - hash:
       serializedVersion: 2
       Hash: 06c88778eae5d73977708a880634cd1f
@@ -1363,6 +1400,12 @@ ScriptsOnlyBuild:
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 93c9df9558f35773efb5dc758b958f87
+    assemblyName: Unity.UniWindowController.dll
+    namespaceName: Kirurobo
+    className: UniWindowController
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1441,6 +1484,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 73dbc3f2a590ece44c2b500dbcfa5a4f
+    assemblyName: UniWindowController.Samples.dll
+    namespaceName: Kirurobo
+    className: UiSampleController
+  - hash:
+      serializedVersion: 2
       Hash: 66a76d307baa3e8eb65d877c961f1b43
     assemblyName: Cinemachine.dll
     namespaceName: 
@@ -1451,6 +1500,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniWindowController.Samples.dll
+    namespaceName: Kirurobo
+    className: SampleManager
   - hash:
       serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
@@ -1493,60 +1548,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OneWayColliderScript
-  - hash:
-      serializedVersion: 2
-      Hash: 2f108941490dfa9071d472ec1d05c334
-    assemblyName: UniWindowController.Samples.dll
-    namespaceName: Kirurobo
-    className: FullscreenSample
-  - hash:
-      serializedVersion: 2
-      Hash: e016b70a5996bf72c4d7a902f1caf90d
-    assemblyName: UniWindowController.Samples.dll
-    namespaceName: Kirurobo
-    className: ModelController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UniWindowController.Samples.dll
-    namespaceName: Kirurobo
-    className: FileDialogSample
-  - hash:
-      serializedVersion: 2
-      Hash: 4c49cd5e97388ce5ee2a33c0bcb8b543
-    assemblyName: Unity.UniWindowController.dll
-    namespaceName: Kirurobo
-    className: UniWindowMoveHandle
-  - hash:
-      serializedVersion: 2
-      Hash: 73dbc3f2a590ece44c2b500dbcfa5a4f
-    assemblyName: UniWindowController.Samples.dll
-    namespaceName: Kirurobo
-    className: UiSampleController
-  - hash:
-      serializedVersion: 2
-      Hash: 93c9df9558f35773efb5dc758b958f87
-    assemblyName: Unity.UniWindowController.dll
-    namespaceName: Kirurobo
-    className: UniWindowController
-  - hash:
-      serializedVersion: 2
-      Hash: dc8ba63454427f02507a7c4605c1d75d
-    assemblyName: UniWindowController.Samples.dll
-    namespaceName: Kirurobo
-    className: AutoRotator
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UniWindowController.Samples.dll
-    namespaceName: Kirurobo
-    className: SampleManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
